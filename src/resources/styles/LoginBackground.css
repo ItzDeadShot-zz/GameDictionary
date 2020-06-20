@@ -1,0 +1,9 @@
+.anchor {
+    -fx-background-image:url('G:\Java\GameDictionary\src\resources\images\ShotterWallpaper.jpeg');
+}
+
+.bodybg{
+ -fx-background-image: url('G:\Java\GameDictionary\src\resources\images\ShotterWallpaper.jpeg');
+ -fx-background-size: 100% 100%;
+}
+

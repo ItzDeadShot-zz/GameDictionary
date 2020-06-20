@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXProgressBar?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="500.0" prefWidth="950.0" style="-fx-background-color: Transparent;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="UserInterface.Login.LoginController">
+   <children>
+      <AnchorPane layoutY="33.0" prefHeight="500.0" prefWidth="953.0" style="-fx-background-color: #131022;">
+         <children>
+            <JFXButton fx:id="signUpSuccBT" contentDisplay="TOP" layoutY="156.0" onAction="#selectLoginOption" prefHeight="63.0" prefWidth="99.0" text="Sign Up" textFill="WHITE">
+               <graphic>
+                  <ImageView fitHeight="21.0" fitWidth="21.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/signUp.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </JFXButton>
+            <JFXButton fx:id="signIpSuccBT" contentDisplay="TOP" layoutY="219.0" onAction="#selectLoginOption" prefHeight="63.0" prefWidth="99.0" text="Sign In" textFill="WHITE">
+               <graphic>
+                  <ImageView fitHeight="21.0" fitWidth="21.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/sigIN.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </JFXButton>
+            <AnchorPane fx:id="signInAnchor" layoutX="507.0" prefHeight="500.0" prefWidth="441.0" style="-fx-background-color: #131022;">
+               <children>
+                  <Label layoutX="167.0" layoutY="14.0" style="-fx-font-size: 3em;" text="Sign In" textFill="WHITE" />
+                  <Label fx:id="inLabel" layoutX="47.0" layoutY="102.0" prefHeight="17.0" prefWidth="350.0" textFill="TOMATO" />
+                  <JFXTextField fx:id="inUsernameField" layoutX="47.0" layoutY="119.0" prefHeight="50.0" prefWidth="350.0" promptText="Username" styleClass="jfx-text-field" stylesheets="@../styles/textfieldcolor.css" unFocusColor="WHITE" />
+                  <JFXPasswordField fx:id="inPasswordField" layoutX="47.0" layoutY="216.0" prefHeight="50.0" prefWidth="350.0" promptText="Password" styleClass="jfx-password-field" stylesheets="@../styles/textfieldcolor.css" unFocusColor="WHITE" />
+                  <JFXButton fx:id="signInBT" contentDisplay="GRAPHIC_ONLY" layoutX="196.0" layoutY="316.0" onAction="#signInActionHandler">
+                     <graphic>
+                        <FontAwesomeIconView fill="MEDIUMBLUE" glyphName="ARROW_CIRCLE_RIGHT" size="40" />
+                     </graphic>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </JFXButton>
+                  <JFXProgressBar fx:id="progressBar" layoutX="79.0" layoutY="365.0" prefHeight="6.0" prefWidth="287.0" stylesheets="@../styles/textfieldcolor.css" visible="false" />
+                  <Hyperlink fx:id="forgotPass" layoutX="287.0" layoutY="278.0" onAction="#forgotPassPopUp" prefHeight="23.0" prefWidth="110.0" text="Forgot password?" />
+               </children>
+            </AnchorPane>
+            <AnchorPane fx:id="signUpAnchor" layoutX="509.0" prefHeight="500.0" prefWidth="441.0" style="-fx-background-color: #131022;">
+               <children>
+                  <Label layoutX="165.0" layoutY="14.0" style="-fx-font-size: 3em;" text="Sign Up" textFill="WHITE" />
+                  <Label fx:id="upLabel" layoutX="46.0" layoutY="72.0" prefHeight="27.0" prefWidth="350.0" textFill="TOMATO" />
+                  <JFXTextField fx:id="upUsernameField" layoutX="46.0" layoutY="99.0" prefHeight="50.0" prefWidth="350.0" promptText="Username" styleClass="jfx-text-field" stylesheets="@../styles/textfieldcolor.css" unFocusColor="WHITE" />
+                  <JFXTextField fx:id="upFnameField" layoutX="46.0" layoutY="166.0" prefHeight="50.0" prefWidth="350.0" promptText="First Name" styleClass="jfx-text-field" stylesheets="@../styles/textfieldcolor.css" unFocusColor="WHITE" />
+                  <JFXTextField fx:id="upLnameField" layoutX="46.0" layoutY="231.0" prefHeight="50.0" prefWidth="350.0" promptText="Last Name" styleClass="jfx-text-field" stylesheets="@../styles/textfieldcolor.css" unFocusColor="WHITE" />
+                  <JFXPasswordField fx:id="upPasswordField" layoutX="46.0" layoutY="295.0" prefHeight="50.0" prefWidth="350.0" promptText="Password" styleClass="jfx-password-field" stylesheets="@../styles/textfieldcolor.css" unFocusColor="WHITE" />
+                  <JFXPasswordField fx:id="upConfirmPasswordField" layoutX="46.0" layoutY="356.0" prefHeight="50.0" prefWidth="350.0" promptText="Confirm Password" styleClass="jfx-password-field" stylesheets="@../styles/textfieldcolor.css" unFocusColor="WHITE" />
+                  <JFXButton fx:id="signUpBT" contentDisplay="GRAPHIC_ONLY" layoutX="195.0" layoutY="430.0" onAction="#signUpActionHandler">
+                     <graphic>
+                        <FontAwesomeIconView fill="MEDIUMBLUE" glyphName="ARROW_CIRCLE_RIGHT" size="40" />
+                     </graphic>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </JFXButton>
+                  <Hyperlink fx:id="alreadyHaveAnAccount" layoutX="248.0" layoutY="419.0" onAction="#alreadyHaveAcc" prefHeight="23.0" prefWidth="148.0" text="Already have an account?" />
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="mainPane" layoutX="99.0" prefHeight="565.0" prefWidth="408.0" style="-fx-background-color: MEDIUMBLUE;">
+         <children>
+            <JFXButton fx:id="minimizeBT" contentDisplay="GRAPHIC_ONLY" layoutX="324.0" layoutY="1.0" onAction="#minimizeWindow" prefHeight="29.0" prefWidth="29.0">
+               <graphic>
+                  <ImageView fitHeight="29.0" fitWidth="29.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/minimize.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </JFXButton>
+            <Label layoutX="117.0" layoutY="61.0" style="-fx-font-size: 2em; -fx-font-family: Arial;" text="Game Dictionary" textFill="WHITE" />
+            <JFXButton fx:id="dontClickMeBT" contentDisplay="GRAPHIC_ONLY" layoutX="138.0" layoutY="219.0" onAction="#dontClickMe">
+               <graphic>
+                  <ImageView fitHeight="130.0" fitWidth="120.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/GameIcon.png" />
+                     </image>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </ImageView>
+               </graphic>
+            </JFXButton>
+            <Label layoutX="162.0" layoutY="343.0" prefHeight="17.0" prefWidth="91.0" text="Don't click me!!!" textFill="#fff3f373" />
+            <JFXButton fx:id="closeBT" contentDisplay="GRAPHIC_ONLY" layoutX="361.0" layoutY="1.0" onAction="#handleClose" prefHeight="29.0" prefWidth="29.0">
+               <graphic>
+                  <ImageView fitHeight="29.0" fitWidth="29.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/close.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </JFXButton>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

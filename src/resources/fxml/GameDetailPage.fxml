@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="gameDetailPane" prefHeight="636.0" prefWidth="1101.0" style="-fx-background-color: #131022; -fx-background-radius: 10;" stylesheets="@../styles/fullpackstyling.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="88.0" layoutY="18.0" prefHeight="75.0" prefWidth="198.0" text="Game Details" textFill="#fff600">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Label>
+      <JFXButton fx:id="goBackBT" contentDisplay="GRAPHIC_ONLY" layoutX="14.0" layoutY="29.0" onAction="#goBackToViewGamePage" styleClass="button5" stylesheets="@../styles/fullpackstyling.css" textFill="WHITE">
+         <graphic>
+            <FontAwesomeIconView fill="#a868a0" glyphName="ARROW_LEFT" size="45" />
+         </graphic>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></JFXButton>
+      <Label fx:id="gameName" layoutX="381.0" layoutY="83.0" prefHeight="75.0" prefWidth="451.0" textFill="#fff600">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="gamePoster" fitHeight="425.0" fitWidth="325.0" layoutX="42.0" layoutY="117.0" pickOnBounds="true" preserveRatio="true" />
+      <Label fx:id="gameGenre" layoutX="519.0" layoutY="275.0" prefHeight="27.0" prefWidth="340.0" textFill="#fff600">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="gameReleaseDate" layoutX="519.0" layoutY="237.0" prefHeight="27.0" prefWidth="340.0" textFill="#fff600">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <JFXTextArea fx:id="gameDescription" editable="false" layoutX="382.0" layoutY="348.0" prefHeight="194.0" prefWidth="475.0" styleClass="jfx-text-area1" stylesheets="@../styles/textfieldcolor.css" wrapText="true">
+         <cursor>
+            <Cursor fx:constant="DISAPPEAR" />
+         </cursor></JFXTextArea>
+      <Label layoutX="380.0" layoutY="165.0" text="Developer: " textFill="#fcfcfc">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="381.0" layoutY="237.0" text="Release Date: " textFill="#fcfcfc">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="381.0" layoutY="275.0" text="Genre: " textFill="#fcfcfc">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="gameDeveloper" layoutX="518.0" layoutY="165.0" prefHeight="27.0" prefWidth="340.0" textFill="#fff600">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="382.0" layoutY="315.0" text="Description: " textFill="#fcfcfc">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <JFXButton fx:id="buyBT" buttonType="RAISED" contentDisplay="TOP" layoutX="940.0" layoutY="515.0" prefHeight="99.0" prefWidth="147.0" styleClass="button5" stylesheets="@../styles/fullpackstyling.css" text="Buy Now" textFill="#a868a0">
+         <graphic>
+            <ImageView fitHeight="55.0" fitWidth="55.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/buy.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <font>
+            <Font size="16.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <Label layoutX="381.0" layoutY="201.0" text="Rating: " textFill="#fcfcfc">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="gameRating" layoutX="519.0" layoutY="201.0" prefHeight="27.0" prefWidth="340.0" textFill="#fff600">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <JFXButton fx:id="favoriteBT" buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" layoutX="940.0" layoutY="109.0" onAction="#favoriteGame" prefHeight="99.0" prefWidth="147.0" styleClass="button5" stylesheets="@../styles/fullpackstyling.css">
+         <graphic>
+            <ImageView fx:id="favoriteImageView" fitHeight="75.0" fitWidth="75.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/heart.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+   </children>
+</AnchorPane>

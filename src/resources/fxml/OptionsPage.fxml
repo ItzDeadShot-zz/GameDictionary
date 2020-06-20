@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="pane" prefHeight="636.0" prefWidth="1101.0" style="-fx-background-color: #131022; -fx-background-radius: 10;" stylesheets="@../styles/fullpackstyling.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <Label layoutX="32.0" layoutY="27.0" text="Options" textFill="#fff600">
+            <font>
+                <Font size="32.0" />
+            </font>
+        </Label>
+      <Label fx:id="errorLabel" layoutX="88.0" layoutY="95.0" prefHeight="29.0" prefWidth="289.0" textFill="TOMATO" />
+      <JFXPasswordField fx:id="oldPasswordField" layoutX="88.0" layoutY="124.0" prefHeight="47.0" prefWidth="289.0" promptText="Old Password" stylesheets="@../styles/textfieldcolor.css" />
+      <JFXPasswordField fx:id="newPasswordField" layoutX="88.0" layoutY="204.0" prefHeight="47.0" prefWidth="289.0" promptText="New Password" stylesheets="@../styles/textfieldcolor.css" />
+      <JFXPasswordField fx:id="confirmPasswordField" layoutX="88.0" layoutY="287.0" prefHeight="47.0" prefWidth="289.0" promptText="Confirm Password" stylesheets="@../styles/textfieldcolor.css" />
+      <JFXButton layoutX="193.0" layoutY="358.0" onAction="#changePassword" styleClass="button5" stylesheets="@../styles/fullpackstyling.css" text="Change Password" textFill="#a868a0">
+         <graphic>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/pass.png" />
+               </image></ImageView>
+         </graphic>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font size="14.0" />
+         </font>
+      </JFXButton>
+    </children>
+</AnchorPane>

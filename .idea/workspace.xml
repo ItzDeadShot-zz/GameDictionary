@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="GameDictionary:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="084a9ef1-ecf4-48c4-9cd6-d8c6dbe3d721" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GameDictionary/UserInterface/AdminInterface/AddGameController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GameDictionary/UserInterface/AdminInterface/AddGameController$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GameDictionary/UserInterface/AdminInterface/AddGameController$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GameDictionary/UserInterface/AdminInterface/AddGameController$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GameDictionary/UserInterface/AdminInterface/AddGameController$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GameDictionary/UserInterface/AdminInterface/AddGameController$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GameDictionary/UserInterface/AdminInterface/AddGameController$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GameDictionary/UserInterface/AdminInterface/AddGameController$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GameDictionary/UserInterface/AdminInterface/AddGameController$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GameDictionary/UserInterface/AdminInterface/AddGameController$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GameDictionary/UserInterface/AdminInterface/AddGameController$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GameDictionary/UserInterface/AdminInterface/AddGameController$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GameDictionary/UserInterface/AdminInterface/AddGameController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GameDictionary/UserInterface/AdminInterface/AddGameController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GameDictionary/UserInterface/AdminInterface/AddGameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GameDictionary/UserInterface/AdminInterface/AddGameController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GameDictionary/resources/fxml/ViewGamePage.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GameDictionary/resources/fxml/ViewGamePage.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UserInterface/AdminInterface/AddGameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserInterface/AdminInterface/AddGameController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UserInterface/AdminInterface/updateGameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserInterface/AdminInterface/updateGameController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/fxml/ViewGamePage.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/fxml/ViewGamePage.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/images/home.png" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="FxmlFile" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectId" id="1TKxpNiMIIjUnNIUuIBNvkmed9o" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../CPT212Assignment" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\Java\GameDictionary\out\production\GameDictionary\resources\images" />
+      <recent name="G:\Java\GameDictionary\src\resources\images" />
+      <recent name="G:\Java\GameDictionary\src\resources\fxml" />
+      <recent name="G:\Java\GameDictionary\src\UserInterface\NormalInterface" />
+      <recent name="G:\Java\GameDictionary\src\resources\styles" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="UserInterface.Popups" />
+      <recent name="UserInterface.AdminInterface" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\Java\GameDictionary\src\resources\images" />
+      <recent name="G:\Java\GameDictionary\out\production\GameDictionary\resources\styles" />
+      <recent name="G:\Java\GameDictionary\src\resources\fxml" />
+      <recent name="G:\Java\GameDictionary\src\UserInterface\AdminInterface" />
+      <recent name="G:\Java\GameDictionary\src\Login" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="GameMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main.GameMain" />
+      <module name="GameDictionary" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="UserInterface.Login.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.GameMain" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="084a9ef1-ecf4-48c4-9cd6-d8c6dbe3d721" name="Default Changelist" comment="" />
+      <created>1573222769199</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1573222769199</updated>
+      <workItem from="1577205447180" duration="350000" />
+      <workItem from="1585550817248" duration="1803000" />
+      <workItem from="1586575702876" duration="4935000" />
+      <workItem from="1586582965002" duration="10689000" />
+    </task>
+    <task id="LOCAL-00001" summary="hehe">
+      <created>1576351576927</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1576351576927</updated>
+    </task>
+    <task id="LOCAL-00002" summary="hehe">
+      <created>1576352512275</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1576352512275</updated>
+    </task>
+    <task id="LOCAL-00003" summary="hehe">
+      <created>1576392262731</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1576392262731</updated>
+    </task>
+    <task id="LOCAL-00004" summary="hehe">
+      <created>1576392281861</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1576392281861</updated>
+    </task>
+    <task id="LOCAL-00005" summary="hehe">
+      <created>1576428559550</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1576428559550</updated>
+    </task>
+    <task id="LOCAL-00006" summary="hehe">
+      <created>1576687811270</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1576687811270</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="hehe" />
+    <option name="LAST_COMMIT_MESSAGE" value="hehe" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="463" y="138" key="FileChooserDialogImpl" timestamp="1586575747560">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="463" y="138" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1586575747560" />
+    <state width="1323" height="150" key="GridCell.Tab.0.bottom" timestamp="1586610197981">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1323" height="150" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1586610197981" />
+    <state width="1323" height="150" key="GridCell.Tab.0.center" timestamp="1586610197980">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1323" height="150" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1586610197980" />
+    <state width="1323" height="150" key="GridCell.Tab.0.left" timestamp="1586610197980">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1323" height="150" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1586610197980" />
+    <state width="1323" height="150" key="GridCell.Tab.0.right" timestamp="1586610197981">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1323" height="150" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1586610197981" />
+    <state x="163" y="0" key="SettingsEditor" timestamp="1586578955378">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="163" y="0" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1586578955378" />
+    <state x="359" y="207" key="com.intellij.ide.util.TipDialog" timestamp="1586575705851">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="359" y="207" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1586575705851" />
+  </component>
+</project>

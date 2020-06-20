@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import com.jfoenix.controls.JFXDatePicker?>
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="updateGamePane" prefHeight="636.0" prefWidth="1101.0" style="-fx-background-color: #131022; -fx-background-radius: 10;" stylesheets="@../styles/fullpackstyling.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="UserInterface.AdminInterface.UpdateGameController">
+    <children>
+        <Label layoutX="84.0" layoutY="31.0" text="Update Game" textFill="#fff600">
+            <font>
+                <Font size="32.0" />
+            </font>
+        </Label>
+        <JFXButton fx:id="submitBT" layoutX="908.0" layoutY="575.0" onAction="#updateGameInDatabase" prefHeight="50.0" prefWidth="174.0" styleClass="button2" stylesheets="@../styles/fullpackstyling.css" text="Update" textFill="#a868a0">
+            <graphic>
+                <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../images/update.png" />
+                    </image>
+                </ImageView>
+            </graphic>
+            <font>
+                <Font size="16.0" />
+            </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+        </JFXButton>
+        <JFXButton fx:id="goBackBT" contentDisplay="GRAPHIC_ONLY" layoutX="1.0" layoutY="28.0" onAction="#goBackToManageGames" styleClass="button5" stylesheets="@../styles/fullpackstyling.css" textFill="WHITE">
+            <graphic>
+                <FontAwesomeIconView fill="#a868a0" glyphName="ARROW_LEFT" size="45" />
+            </graphic>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </JFXButton>
+      <JFXComboBox fx:id="gameComboBox" focusColor="#a868a0" layoutX="29.0" layoutY="121.0" prefHeight="47.0" prefWidth="325.0" promptText="Game" stylesheets="@../styles/textfieldcolor.css" unFocusColor="#131022" />
+      <JFXTextField fx:id="nameField" labelFloat="true" layoutX="415.0" layoutY="229.0" prefHeight="54.0" prefWidth="256.0" promptText="Enter Game Name" stylesheets="@../styles/textfieldcolor.css" visible="false" />
+      <JFXDatePicker fx:id="dateField" defaultColor="#a868a0" layoutX="417.0" layoutY="229.0" prefHeight="54.0" prefWidth="256.0" promptText="Release Date" stylesheets="@../styles/textfieldcolor.css" visible="false" />
+      <JFXTextArea fx:id="descriptionField" labelFloat="true" layoutX="365.0" layoutY="318.0" prefHeight="193.0" prefWidth="451.0" promptText="Enter Game Description" stylesheets="@../styles/textfieldcolor.css" visible="false" />
+      <ImageView fx:id="imageView" fitHeight="350.0" fitWidth="325.0" layoutX="45.0" layoutY="175.0" onDragDropped="#dragImage" onDragOver="#allowImageDrag" pickOnBounds="true" preserveRatio="true" visible="false" />
+      <JFXButton fx:id="browseBT" layoutX="45.0" layoutY="534.0" onAction="#chooseFile" prefHeight="50.0" prefWidth="174.0" styleClass="button2" stylesheets="@../styles/fullpackstyling.css" text="Browse Image" textFill="#a868a0" visible="false">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/browser.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <Label fx:id="fileName" layoutX="219.0" layoutY="546.0" prefHeight="27.0" prefWidth="239.0" textFill="WHITE" visible="false" wrapText="true" />
+      <JFXTextField fx:id="ratingField" labelFloat="true" layoutX="415.0" layoutY="229.0" prefHeight="54.0" prefWidth="256.0" promptText="Enter Game Rating out of 10" stylesheets="@../styles/textfieldcolor.css" visible="false" />
+      <JFXTextField fx:id="genreField" labelFloat="true" layoutX="415.0" layoutY="229.0" prefHeight="54.0" prefWidth="256.0" promptText="Enter Game Genre" stylesheets="@../styles/textfieldcolor.css" visible="false" />
+      <JFXTextField fx:id="developerField" labelFloat="true" layoutX="415.0" layoutY="229.0" prefHeight="54.0" prefWidth="256.0" promptText="Enter Developer Name" stylesheets="@../styles/textfieldcolor.css" visible="false" />
+      <JFXTextField fx:id="linkField" layoutX="415.0" layoutY="229.0" prefHeight="54.0" prefWidth="256.0" promptText="Enter Purchase Link (Preferred Steam)" stylesheets="@../styles/textfieldcolor.css" visible="false" />
+      <JFXComboBox fx:id="updateComboBox" focusColor="#a868a0" layoutX="415.0" layoutY="121.0" onAction="#showEditable" prefHeight="47.0" prefWidth="312.0" promptText="Update Option" stylesheets="@../styles/textfieldcolor.css" unFocusColor="#131022" />
+      <HBox layoutX="770.0" layoutY="120.0" prefHeight="50.0" prefWidth="312.0">
+         <children>
+            <JFXTextField fx:id="searchField" focusColor="#e81111" prefHeight="50.0" prefWidth="255.0" promptText="Search" stylesheets="@../styles/textfieldcolor.css">
+               <font>
+                  <Font name="System Italic" size="18.0" />
+               </font>
+            </JFXTextField>
+            <JFXButton fx:id="searchBT" contentDisplay="GRAPHIC_ONLY" mnemonicParsing="false" prefHeight="50.0" prefWidth="52.0" styleClass="button5" stylesheets="@../styles/fullpackstyling.css" textFill="#a868a0">
+               <graphic>
+                  <FontAwesomeIconView fill="#a868a0" glyphName="SEARCH" size="30" />
+               </graphic>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </JFXButton>
+         </children>
+      </HBox>
+      <Label fx:id="errorLabel" layoutX="45.0" layoutY="82.0" prefHeight="27.0" prefWidth="561.0" textFill="TOMATO" />
+    </children>
+</AnchorPane>

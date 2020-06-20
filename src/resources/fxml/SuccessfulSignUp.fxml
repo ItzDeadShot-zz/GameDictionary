@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import de.jensd.fx.glyphs.materialdesignicons.MaterialDesignIconView?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="succSignUpPane" prefHeight="150.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="UserInterface.Popups.SuccessfulSignUpController">
+    <children>
+        <AnchorPane prefHeight="35.0" prefWidth="405.0" style="-fx-background-color: #d11b1b;">
+            <children>
+                <JFXButton fx:id="closebtn" contentDisplay="GRAPHIC_ONLY" layoutX="370.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#handleClose" prefHeight="35.0" prefWidth="35.0" ripplerFill="WHITE">
+                    <graphic>
+                        <MaterialDesignIconView fill="WHITE" glyphName="CLOSE" size="24" />
+                    </graphic>
+                </JFXButton>
+            </children>
+            <effect>
+                <ColorAdjust contrast="0.1" />
+            </effect></AnchorPane>
+        <Label layoutX="132.0" layoutY="48.0" text="Sign Up Successful!" textFill="#1c1239">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Label>
+        <JFXButton fx:id="goToLoginBT" buttonType="RAISED" layoutX="157.0" layoutY="96.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#handleConfirmation" prefHeight="40.0" prefWidth="92.0" style="-fx-background-color: #FF5722; -fx-background-radius: 5;" text="Sign In" textFill="WHITE">
+            <font>
+                <Font size="19.0" />
+            </font>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </JFXButton>
+    </children>
+</AnchorPane>

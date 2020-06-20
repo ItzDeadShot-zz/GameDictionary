@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="636.0" prefWidth="1101.0" style="-fx-background-color: #131022; -fx-background-radius: 10;" stylesheets="@../styles/fullpackstyling.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="UserInterface.AdminInterface.HomeController">
+   <children>
+      <Label layoutX="32.0" layoutY="27.0" text="Home" textFill="#fff600">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Label>
+      <Line endX="100.0" layoutX="455.0" layoutY="54.0" startX="100.0" startY="418.0" stroke="#b9b1b1" strokeDashOffset="2.0" />
+      <Label layoutX="32.0" layoutY="95.0" text="Tips:" textFill="#fff600">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <JFXTextArea editable="false" layoutX="32.0" layoutY="130.0" prefHeight="259.0" prefWidth="501.0" styleClass="jfx-text-field" stylesheets="@../styles/textfieldcolor.css" text="Welcome to Game Dictionary!&#10;&#10;To get started, select 'View Games' tab from the menu to view all the avaliable games in the system, the games database will improve over time as new games will be added soon. You can also save your favorite and easily access it through 'Favorite' tab from the menu. You can also add the game in the database by emailing the app owner for admin account at awesomeiqrar@gmail.com .&#10;&#10;There is a hidden game in this app (tip you have to click a button), you can only play it once per login session so make it count, Good Luck finding it!!" unFocusColor="#131022" wrapText="true">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </JFXTextArea>
+      <AnchorPane fx:id="dateTimePane" layoutX="870.0" layoutY="11.0" prefHeight="78.0" prefWidth="220.0" styleClass="button2" stylesheets="@../styles/fullpackstyling.css">
+         <children>
+            <AnchorPane fx:id="shadow" layoutX="59.0" prefHeight="78.0" prefWidth="1.0" />
+            <Label fx:id="dateLabel" layoutX="69.0" layoutY="14.0" prefHeight="28.0" prefWidth="139.0" textFill="#a868a0">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="timeLabel" layoutX="69.0" layoutY="40.0" prefHeight="28.0" prefWidth="139.0" textFill="#a868a0">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <AnchorPane prefHeight="78.0" prefWidth="59.0" style="-fx-background-color: #524A7C;" styleClass="button2" stylesheets="@../styles/fullpackstyling.css">
+               <children>
+                  <ImageView fitHeight="55.0" fitWidth="50.0" layoutX="5.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/dateandtime.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

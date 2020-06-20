@@ -1,0 +1,15 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="GameDictionary:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/GameDictionary_jar</output-path>
+    <root id="archive" name="GameDictionary.jar">
+      <element id="module-output" name="GameDictionary" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../All Libraries/controlfx/controlsfx-8.40.16.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/de/jensd/fontawesomefx/8.9/fontawesomefx-8.9.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../All Libraries/mysql-connector-java-8.0.18/mysql-connector-java-8.0.18/mysql-connector-java-8.0.18.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/li/flor/native-j-file-chooser/1.6.4/native-j-file-chooser-1.6.4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/io/github/typhon0/AnimateFX/1.2.1/AnimateFX-1.2.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/jfoenix/jfoenix/8.0.8/jfoenix-8.0.8.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/mindrot/jbcrypt/0.3m/jbcrypt-0.3m.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

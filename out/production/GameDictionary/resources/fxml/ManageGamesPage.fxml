@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="managePane" prefHeight="636.0" prefWidth="1101.0" style="-fx-background-color: #131022; -fx-background-radius: 10;" stylesheets="@../styles/fullpackstyling.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="UserInterface.AdminInterface.ManageGamesController">
+    <children>
+        <Label layoutX="32.0" layoutY="27.0" text="Manage Games" textFill="#fff600">
+            <font>
+                <Font size="32.0" />
+            </font>
+        </Label>
+        <JFXButton fx:id="submitBT" buttonType="RAISED" contentDisplay="TOP" layoutX="19.0" layoutY="193.0" onAction="#goToAddGame" prefHeight="250.0" prefWidth="325.0" styleClass="button5" stylesheets="@../styles/fullpackstyling.css" text="Add Game" textFill="#a868a0">
+            <graphic>
+                <ImageView fitHeight="85.0" fitWidth="85.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../images/add.png" />
+                    </image>
+                </ImageView>
+            </graphic>
+            <font>
+                <Font size="32.0" />
+            </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+        </JFXButton>
+      <JFXButton fx:id="submitBT1" buttonType="RAISED" contentDisplay="TOP" layoutX="756.0" layoutY="193.0" onAction="#goToDeleteGame" prefHeight="250.0" prefWidth="325.0" styleClass="button5" stylesheets="@../styles/fullpackstyling.css" text="Delete Game" textFill="#a868a0">
+         <graphic>
+            <ImageView fitHeight="85.0" fitWidth="85.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/delete.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <font>
+            <Font size="32.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <JFXButton fx:id="submitBT2" buttonType="RAISED" contentDisplay="TOP" layoutX="388.0" layoutY="193.0" onAction="#goToUpdateGame" prefHeight="250.0" prefWidth="325.0" styleClass="button5" stylesheets="@../styles/fullpackstyling.css" text="Update Game" textFill="#a868a0">
+         <graphic>
+            <ImageView fitHeight="85.0" fitWidth="85.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/update.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <font>
+            <Font size="32.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+    </children>
+</AnchorPane>

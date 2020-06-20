@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXDatePicker?>
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="addGamePane" prefHeight="636.0" prefWidth="1101.0" style="-fx-background-color: #131022; -fx-background-radius: 10;" stylesheets="@../styles/fullpackstyling.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="UserInterface.AdminInterface.AddGameController">
+    <children>
+        <Label layoutX="84.0" layoutY="31.0" text="Add Game" textFill="#fff600">
+            <font>
+                <Font size="32.0" />
+            </font>
+        </Label>
+      <Label fx:id="errorLabel" layoutX="56.0" layoutY="92.0" prefHeight="27.0" prefWidth="561.0" textFill="TOMATO" />
+      <JFXTextField fx:id="nameField" labelFloat="true" layoutX="56.0" layoutY="128.0" prefHeight="34.0" prefWidth="206.0" promptText="Enter Game Name" stylesheets="@../styles/textfieldcolor.css" />
+      <JFXTextField fx:id="genreField" labelFloat="true" layoutX="301.0" layoutY="128.0" prefHeight="34.0" prefWidth="206.0" promptText="Enter Game Genre" stylesheets="@../styles/textfieldcolor.css" />
+      <JFXTextField fx:id="developerField" labelFloat="true" layoutX="56.0" layoutY="214.0" prefHeight="34.0" prefWidth="206.0" promptText="Enter Developer Name" stylesheets="@../styles/textfieldcolor.css" />
+      <JFXTextField fx:id="ratingField" labelFloat="true" layoutX="301.0" layoutY="214.0" prefHeight="34.0" prefWidth="206.0" promptText="Enter Game Rating out of 10" stylesheets="@../styles/textfieldcolor.css" />
+      <JFXTextField fx:id="linkField" layoutX="56.0" layoutY="304.0" prefHeight="34.0" prefWidth="206.0" promptText="Enter Purchase Link (Preferred Steam)" stylesheets="@../styles/textfieldcolor.css" />
+      <JFXDatePicker fx:id="dateField" defaultColor="#a868a0" layoutX="301.0" layoutY="304.0" prefHeight="34.0" prefWidth="206.0" promptText="Release Date" stylesheets="@../styles/textfieldcolor.css" />
+      <JFXTextArea fx:id="descriptionField" labelFloat="true" layoutX="56.0" layoutY="397.0" prefHeight="193.0" prefWidth="451.0" promptText="Enter Game Description" stylesheets="@../styles/textfieldcolor.css" />
+      <Label alignment="BOTTOM_LEFT" layoutX="670.0" layoutY="106.0" prefHeight="34.0" prefWidth="97.0" text="Image/Poster:" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="imageView" fitHeight="350.0" fitWidth="325.0" layoutX="670.0" layoutY="140.0" onDragDropped="#dragImage" onDragOver="#allowImageDrag" pickOnBounds="true" preserveRatio="true" />
+      <JFXButton fx:id="browseBT" layoutX="670.0" layoutY="490.0" onAction="#chooseFile" prefHeight="50.0" prefWidth="174.0" styleClass="button2" stylesheets="@../styles/fullpackstyling.css" text="Browse Image" textFill="#a868a0">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/browser.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <Label fx:id="fileName" layoutX="844.0" layoutY="502.0" prefHeight="27.0" prefWidth="239.0" textFill="WHITE" />
+      <JFXButton fx:id="submitBT" layoutX="908.0" layoutY="575.0" onAction="#addGameToDatabase" prefHeight="50.0" prefWidth="174.0" styleClass="button2" stylesheets="@../styles/fullpackstyling.css" text="Add" textFill="#a868a0">
+         <graphic>
+            <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/add.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <font>
+            <Font size="16.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <JFXButton fx:id="goBackBT" contentDisplay="GRAPHIC_ONLY" layoutX="1.0" layoutY="28.0" onAction="#goBackToManageGames" styleClass="button5" stylesheets="@../styles/fullpackstyling.css" textFill="WHITE">
+         <graphic>
+            <FontAwesomeIconView fill="#a868a0" glyphName="ARROW_LEFT" size="45" />
+         </graphic>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+    </children>
+</AnchorPane>
